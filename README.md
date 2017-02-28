@@ -1,20 +1,20 @@
-# &lt;link is="juicy-redirect"&gt;
+# &lt;link is="palindrom-redirect"&gt;
 
 > Custom Element that redirects to a new URL when an attribute is changed. It can be configured to work using window location or History API.
 
 ## Demo
 
-[Check it live!](http://juicy.github.io/juicy-redirect)
+[Check it live!](http://Palindrom.github.io/palindrom-redirect)
 
 ## Install
 
 Install the component using [Bower](http://bower.io/):
 
 ```sh
-$ bower install juicy-redirect --save
+$ bower install palindrom-redirect --save
 ```
 
-Or [download as ZIP](https://github.com/juicy/juicy-redirect/archive/master.zip).
+Or [download as ZIP](https://github.com/Palindrom/palindrom-redirect/archive/master.zip).
 
 ## Usage
 
@@ -27,13 +27,13 @@ Or [download as ZIP](https://github.com/juicy/juicy-redirect/archive/master.zip)
 2. Import Custom Element:
 
     ```html
-    <link rel="import" href="bower_components/juicy-redirect/juicy-redirect.html">
+    <link rel="import" href="bower_components/palindrom-redirect/palindrom-redirect.html">
     ```
 
 3. Start using it!
 
     ```html
-    <link is="juicy-redirect" url=""></juicy-redirect>
+    <link is="palindrom-redirect" url="">
     ```
 
 ## Attributes
@@ -49,7 +49,7 @@ Attribute      | Options            | Default  | Description
 
 Name                       | Details             | Bubbles  | Description
 ---                        | ---                 | ---      | ---
-`juicy-redirect-pushstate` | `{url: "/new/path"}` |   yes    | Triggers every tie `history.state` is changed by the element
+`palindrom-redirect-pushstate`| `{url: "/new/path"}` |   yes    | Triggers every tie `history.state` is changed by the element. This event is being listened by Palindrom, and triggers updating its state.
 
 ## Methods
 
@@ -67,7 +67,7 @@ Name       | Parameters     | Returns                            | Description
 
 ## History
 
-For detailed changelog, check [Releases](https://github.com/juicy/redirect/releases).
+For detailed changelog, check [Releases](https://github.com/Palindrom/redirect/releases).
 
 ## License
 
