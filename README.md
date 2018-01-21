@@ -1,3 +1,5 @@
+:warning: This element is **DEPRECATED**. The development of a more specialised version continues in [palindrom-redirect](https://github.com/palindrom/palindrom-redirect)
+
 # &lt;link is="juicy-redirect"&gt;
 
 > Custom Element that redirects to a new URL when an attribute is changed. It can be configured to work using window location or History API.
